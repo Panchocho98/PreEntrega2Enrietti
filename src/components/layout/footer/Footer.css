@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to left,
+    rgb(85, 240, 85),
+    rgb(99, 241, 196)
+  );
+  border-top: solid 3px rgb(0, 84, 38);
+}
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: 0.4s;
+}
+footer a:hover {
+  color: #ffffff;
+}
+
+.copy {
+  display: flex;
+  justify-content: left;
+}

@@ -3,7 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-image: linear-gradient(to left, rgb(1, 156, 1), rgb(0, 122, 83));
+  background-image: linear-gradient(
+    to left,
+    rgb(85, 240, 85),
+    rgb(99, 241, 196)
+  );
   border-bottom: solid 3px rgb(0, 84, 38);
 }
 
@@ -14,6 +18,7 @@
 }
 .categories li {
   background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px rgb(63, 104, 5);
   padding: 0.5rem;
   color: rgb(0, 0, 0);
   width: 200px;

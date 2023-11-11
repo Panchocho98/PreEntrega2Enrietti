@@ -1,6 +1,6 @@
 import CartWidget from "../../common/cartWidget/CartWidget";
 import "./Navbar.css";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import FilterVintageIcon from "@mui/icons-material/FilterVintage";
 
 export const Navbar = () => {
