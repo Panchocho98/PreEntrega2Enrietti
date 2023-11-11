@@ -1,6 +1,6 @@
 import { Navbar } from "./navbar/Navbar";
 import { Outlet } from "react-router-dom";
-import Footer from "./footer/footer";
+import Footer from "./footer/Footer";
 const Layout = () => {
   return (
     <div>
@@ -10,8 +10,9 @@ const Layout = () => {
       <div style={{ minHeight: "74vh" }}>
         <Outlet />
       </div>
-      <div style={{ height: "10vh" }}></div>
-      <Footer />
+      <div style={{ height: "10vh" }}>
+        <Footer />
+      </div>
     </div>
   );
 };

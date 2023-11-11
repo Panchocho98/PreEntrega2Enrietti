@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <p class="copy">Copyright &copy; 2023</p>
+        <p className="copy">Copyright &copy; 2023</p>
         <a href="https://www.instagram.com/dante_enr/" target="_blank">
           Redes Sociales
         </a>
